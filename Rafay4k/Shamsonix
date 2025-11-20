@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shamsonix — Smart IT Solutions for a Faster Future</title>
+  <meta name="description" content="Shamsonix provides managed IT, cloud setups, secure systems, and fast troubleshooting for growing businesses.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#071033;--blue:#0B84FF;--cyan:#22D3EE;--bg:#F5F7FA;--text:#0B1724}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--text);margin:0;line-height:1.45}
+    header{background:linear-gradient(90deg,var(--navy),#0b1630);color:white;padding:22px 18px}
+    .wrap{max-width:980px;margin:0 auto;padding:0 18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand img.icon{width:48px;height:48px;display:block;border-radius:8px}
+    .brand img.word{height:44px;display:block}
+    .tag{margin-top:8px;color:rgba(255,255,255,.95);font-size:14px}
+    main{padding:28px 18px}
+    .grid{display:flex;gap:18px;flex-wrap:wrap}
+    .card{flex:1 1 300px;background:white;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(11,24,52,.06)}
+    a.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--blue);color:white;text-decoration:none;font-weight:600}
+    section h2{margin:6px 0 12px;font-size:20px}
+    .muted{color:#6b7280;font-size:15px}
+    footer{background:#071033;color:white;padding:18px}
+    footer a{color:#22D3EE;text-decoration:none}
+    @media(max-width:720px){.brand img.word{display:none}}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <img class="icon" src="/assets/logo-icon.svg" alt="Shamsonix icon">
+      <img class="word" src="/assets/logo-dark.svg" alt="Shamsonix">
+    </div>
+    <div class="tag">Smart IT Solutions for a Faster Future</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section style="display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap">
+    <div style="flex:1;min-width:260px">
+      <h2>Reliable technical support that just works</h2>
+      <p class="muted">Shamsonix helps small businesses eliminate downtime, secure data, and run cloud-ready systems — without the headaches.</p>
+      <div style="margin-top:12px">
+        <a class="btn" href="https://wa.me/923055818817?text=Hi%20Shamsonix,%20I%20need%20a%20consult" target="_blank">Get a Free Consult</a>
+      </div>
+    </div>
+
+    <div style="width:320px;min-width:220px">
+      <div class="card" style="padding:14px">
+        <strong>Quick Contact</strong>
+        <p style="margin:8px 0" class="muted"><strong>WhatsApp:</strong> <a href="https://wa.me/923055818817" target="_blank">+92 305 5818817</a></p>
+        <p style="margin:0" class="muted"><strong>Email:</strong> <a href="mailto:mshamspk@gmail.com">mshamspk@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p style="margin:0"><strong>Shamsonix</strong> — IT solutions built for performance.</p>
+    <p style="margin:6px 0 0">WhatsApp: <a href="https://wa.me/923055818817">+92 305 5818817</a> • Email: <a href="mailto:mshamspk@gmail.com">mshamspk@gmail.com</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
